@@ -1,0 +1,15 @@
+C:\dev\GeradorDeSenhas\bin\Debug\net6.0\GeradorDeSenhas.exe
+C:\dev\GeradorDeSenhas\bin\Debug\net6.0\GeradorDeSenhas.deps.json
+C:\dev\GeradorDeSenhas\bin\Debug\net6.0\GeradorDeSenhas.runtimeconfig.json
+C:\dev\GeradorDeSenhas\bin\Debug\net6.0\GeradorDeSenhas.dll
+C:\dev\GeradorDeSenhas\bin\Debug\net6.0\GeradorDeSenhas.pdb
+C:\dev\GeradorDeSenhas\obj\Debug\net6.0\GeradorDeSenhas.csproj.AssemblyReference.cache
+C:\dev\GeradorDeSenhas\obj\Debug\net6.0\GeradorDeSenhas.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\GeradorDeSenhas\obj\Debug\net6.0\GeradorDeSenhas.AssemblyInfoInputs.cache
+C:\dev\GeradorDeSenhas\obj\Debug\net6.0\GeradorDeSenhas.AssemblyInfo.cs
+C:\dev\GeradorDeSenhas\obj\Debug\net6.0\GeradorDeSenhas.csproj.CoreCompileInputs.cache
+C:\dev\GeradorDeSenhas\obj\Debug\net6.0\GeradorDeSenhas.dll
+C:\dev\GeradorDeSenhas\obj\Debug\net6.0\refint\GeradorDeSenhas.dll
+C:\dev\GeradorDeSenhas\obj\Debug\net6.0\GeradorDeSenhas.pdb
+C:\dev\GeradorDeSenhas\obj\Debug\net6.0\GeradorDeSenhas.genruntimeconfig.cache
+C:\dev\GeradorDeSenhas\obj\Debug\net6.0\ref\GeradorDeSenhas.dll
