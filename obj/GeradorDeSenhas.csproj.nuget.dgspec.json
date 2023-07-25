@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\GeradorDeSenhas\\GeradorDeSenhas.csproj": {}
+    "C:\\dev\\GeradorDeSenhas\\Password_generator\\GeradorDeSenhas.csproj": {}
   },
   "projects": {
-    "C:\\dev\\GeradorDeSenhas\\GeradorDeSenhas.csproj": {
+    "C:\\dev\\GeradorDeSenhas\\Password_generator\\GeradorDeSenhas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\GeradorDeSenhas\\GeradorDeSenhas.csproj",
+        "projectUniqueName": "C:\\dev\\GeradorDeSenhas\\Password_generator\\GeradorDeSenhas.csproj",
         "projectName": "GeradorDeSenhas",
-        "projectPath": "C:\\dev\\GeradorDeSenhas\\GeradorDeSenhas.csproj",
+        "projectPath": "C:\\dev\\GeradorDeSenhas\\Password_generator\\GeradorDeSenhas.csproj",
         "packagesPath": "C:\\Users\\ADM\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\GeradorDeSenhas\\obj\\",
+        "outputPath": "C:\\dev\\GeradorDeSenhas\\Password_generator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADM\\AppData\\Roaming\\NuGet\\NuGet.Config"

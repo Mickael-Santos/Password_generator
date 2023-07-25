@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "74V9jgOFqxHWQkzVIne+Rqht1kiqZcm73/PKZD75dH336HToQgq3TWoxycYeJBz79RI8KDY4Fytw+QrSMPj2fQ==",
+  "dgSpecHash": "tkVsdy/wqzOq5JUBt1dJEnQIOpxdwNhf0oNLbBU8Sv2hdKp96Ppqn6uzuRQ/erqB+vPNEof5MQzTwMSXkNujXg==",
   "success": true,
-  "projectFilePath": "C:\\dev\\GeradorDeSenhas\\GeradorDeSenhas.csproj",
+  "projectFilePath": "C:\\dev\\GeradorDeSenhas\\Password_generator\\GeradorDeSenhas.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
