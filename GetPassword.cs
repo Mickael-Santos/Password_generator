@@ -1,4 +1,6 @@
 
+using System.Text;
+
 namespace GeradorDeSenhas
 {
     public class GetPassword
@@ -7,29 +9,42 @@ namespace GeradorDeSenhas
         {
             if (quantidade <= 25)
             {
+                StringBuilder sb = new StringBuilder();
                 for (var senhas = 0; senhas < quantidade; senhas++)
                 {
+                    Gerador.AnimLoading(55,27);
                     var indexY = senhas + 2;
                     var id = senhas + 1;
                     Console.SetCursorPosition(53, indexY);
                     Console.Write("| ");
+                    sb.Append("| ");
                     Console.Write(id);
+                    sb.Append(id);
                     Console.Write("| ");
+                    sb.Append("| ");
                     DateTime data = DateTime.Now;
                     Console.Write(data.ToString(System.Globalization.CultureInfo.CreateSpecificCulture("pt-BR")));
+                    sb.Append(data.ToString(System.Globalization.CultureInfo.CreateSpecificCulture("pt-BR")));
                     Console.Write("| ");
+                    sb.Append("| ");
                     for (var i = 0; i < 4; i++)
                     {
                         Console.Write(GetRandomChar(alphabet));
+                        sb.Append(GetRandomChar(alphabet));
                     }
                     for (var i2 = 0; i2 < 4; i2++)
                     {
                         Console.Write(GetRandomNumber(0, 10));
+                        sb.Append(GetRandomNumber(0, 10));
                     }
                     Console.Write(GetRandomSpecialChar(specialcharacters));
+                    sb.Append(GetRandomSpecialChar(specialcharacters));
                     Console.Write(" |\n");
+                    sb.Append(" |\n");
 
                 }
+                var arquivo = sb.ToString();
+                WriteRead.SaveInfos(2,9,arquivo);
             }
             else
             {
@@ -46,24 +61,35 @@ namespace GeradorDeSenhas
         {
             if (quantidade <= 25)
             {
+                StringBuilder sb = new StringBuilder();
                 for (var senhas = 0; senhas < quantidade; senhas++)
                 {
+                    Gerador.AnimLoading(55,27);
                     var indexY = senhas + 2;
                     var id = senhas + 1;
                     Console.SetCursorPosition(53, indexY);
                     Console.Write("| ");
+                    sb.Append("| ");
                     Console.Write(id);
+                    sb.Append(id);
                     Console.Write("| ");
+                    sb.Append("| ");
                     DateTime data = DateTime.Now;
                     Console.Write(data.ToString(System.Globalization.CultureInfo.CreateSpecificCulture("pt-BR")));
+                    sb.Append(data.ToString(System.Globalization.CultureInfo.CreateSpecificCulture("pt-BR")));
                     Console.Write("| ");
+                    sb.Append("| ");
                     for (var i2 = 0; i2 < 8; i2++)
                     {
                         Console.Write(GetRandomNumber(0, 10));
+                        sb.Append(GetRandomNumber(0, 10));
                     }
                     Console.Write(" |\n");
+                    sb.Append(" |\n");
 
                 }
+                var arquivo = sb.ToString();
+                WriteRead.SaveInfos(2,9,arquivo);
             }
             else
             {
@@ -79,24 +105,35 @@ namespace GeradorDeSenhas
         {
             if (quantidade <= 25)
             {
+                StringBuilder sb = new StringBuilder();
                 for (var senhas = 0; senhas < quantidade; senhas++)
                 {
+                    Gerador.AnimLoading(55,27);
                     var indexY = senhas + 2;
                     var id = senhas + 1;
                     Console.SetCursorPosition(53, indexY);
                     Console.Write("| ");
+                    sb.Append("| ");
                     Console.Write(id);
+                    sb.Append(id);
                     Console.Write("| ");
+                    sb.Append("| ");
                     DateTime data = DateTime.Now;
                     Console.Write(data.ToString(System.Globalization.CultureInfo.CreateSpecificCulture("pt-BR")));
+                    sb.Append(data.ToString(System.Globalization.CultureInfo.CreateSpecificCulture("pt-BR")));
                     Console.Write("| ");
+                    sb.Append("| ");
                     for (var i = 0; i < 8; i++)
                     {
                         Console.Write(GetRandomChar(alphabet));
+                        sb.Append(GetRandomChar(alphabet));
                     }
                     Console.Write(" |\n");
+                    sb.Append(" |\n");
 
                 }
+                var arquivo = sb.ToString();
+                WriteRead.SaveInfos(2,9,arquivo);
             }
             else
             {
@@ -112,24 +149,35 @@ namespace GeradorDeSenhas
         {
             if (quantidade <= 25)
             {
+                StringBuilder sb = new StringBuilder();
                 for (var senhas = 0; senhas < quantidade; senhas++)
                 {
+                    Gerador.AnimLoading(55,27);
                     var indexY = senhas + 2;
                     var id = senhas + 1;
                     Console.SetCursorPosition(53, indexY);
                     Console.Write("| ");
+                    sb.Append("| ");
                     Console.Write(id);
+                    sb.Append(id);
                     Console.Write("| ");
+                    sb.Append("| ");
                     DateTime data = DateTime.Now;
                     Console.Write(data.ToString(System.Globalization.CultureInfo.CreateSpecificCulture("pt-BR")));
+                    sb.Append(data.ToString(System.Globalization.CultureInfo.CreateSpecificCulture("pt-BR")));
                     Console.Write("| ");
+                    sb.Append("| ");
                     for (var i = 0; i < 8; i++)
                     {
                         Console.Write(GetRandomSpecialChar(specialcharacters));
+                        sb.Append(GetRandomSpecialChar(specialcharacters));
                     }
                     Console.Write(" |\n");
+                    sb.Append(" |\n");
 
                 }
+                var arquivo = sb.ToString();
+                WriteRead.SaveInfos(2,9,arquivo);
             }
             else
             {

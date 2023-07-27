@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace GeradorDeSenhas
 {
     class Gerador
@@ -169,6 +170,22 @@ namespace GeradorDeSenhas
                         break;
                     }
                 default: Console.SetCursorPosition(x, y + 6); Console.WriteLine("Programa finalizado!"); break;
+            }
+        }
+
+        public static void AnimLoading(int x, int y, int speed = 5)
+        {
+            Console.SetCursorPosition(x, y);
+            for (var i = 0; i <= 41; i++)
+            {
+                Console.Write("=");
+                Thread.Sleep(speed);
+            }
+            Console.SetCursorPosition(x, y);
+            for (var i = 0; i <= 41; i++)
+            {
+                Console.Write(" ");
+                Thread.Sleep(speed);
             }
         }
 
