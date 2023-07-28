@@ -88,10 +88,12 @@ namespace GeradorDeSenhas
             Console.SetCursorPosition(x, y + 3);
             Console.WriteLine("[4] - Gerar senhas com caracteres especiais");
             Console.SetCursorPosition(x, y + 4);
-            Console.WriteLine("[5] - Sair");
-            Console.SetCursorPosition(x, y + 6);
+            Console.WriteLine("[5] - Visualizar um arquivo");
+            Console.SetCursorPosition(x, y + 5);
+            Console.WriteLine("[6] - Sair");
+            Console.SetCursorPosition(x, y + 7);
             Console.WriteLine("Opção:");
-            Console.SetCursorPosition(x + 10, y + 6);
+            Console.SetCursorPosition(x + 10, y + 7);
 
             var option_menu = int.Parse(Console.ReadLine());
 
@@ -165,6 +167,15 @@ namespace GeradorDeSenhas
                         Console.SetCursorPosition(x, y + 4);
                         Console.WriteLine("Pressione qualquer tecla para continuar...");
                         Console.SetCursorPosition(x + 44, y + 4);
+                        Console.ReadKey();
+                        Menu(alphabet, specialcharacters);
+                        break;
+                    }
+                case 5:
+                    {
+                        Console.Clear();
+                        DesenharMenu();
+                        WriteRead.OpenFile(x, y, 53, 2);
                         Console.ReadKey();
                         Menu(alphabet, specialcharacters);
                         break;
